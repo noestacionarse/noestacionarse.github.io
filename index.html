@@ -12,7 +12,931 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo:700italic,700,400italic,400,300italic,300&display=swap" type="text/css">
 </head>
 <body>
-	<p>Hola</p>
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="cell">
+				<div data-sticky-container>
+					<div class="off-canvas-wrapper">
+						<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+							<div class="off-canvas position-left" id="offcanvasMenu" data-off-canvas data-position="left">
+								<ul class="vertical menu" data-magellan data-offset="15">
+									<li>
+										<a href="#zero" class="menuLink"> <span class="hide">Acerca de mí</span> <i class="fas fa-user-circle"></i> </a>
+									</li>
+									<li>
+										<a href="#first" class="menuLink">1)  <span class="hide">Gasolinas</span> <i class="fas fa-gas-pump"></i> </a>
+									</li>
+									<li>
+										<a href="#second" class="menuLink">2)  <span class="hide">Restaurantes</span> <i class="fas fa-utensils"></i> </a>
+									</li>
+									<li>
+										<a href="#third" class="menuLink">3)  <span class="hide">Zona de derrumbe</span> <i class="fas fa-bomb"></i> </a>
+									</li>
+									<li>
+										<a href="#fourth" class="menuLink">4)  <span class="hide">Señales de tránsito</span> <i class="fas fa-map-signs"></i> </a>
+									</li>
+									<li>
+										<a href="#fifth" class="menuLink">5)  <span class="hide">Baches</span> <i class="fas fa-car-tilt"></i> </a>
+									</li>
+									<li>
+										<a href="#sixth" class="menuLink">6)  <span class="hide">Topes</span> <i class="fas fa-car-bump"></i> </a>
+									</li>
+									<li>
+										<a href="#seventh" class="menuLink">7)  <span class="hide">Taller mecánico</span> <i class="fas fa-tools"></i> </a>
+									</li>
+									<li>
+										<a href="#eighth" class="menuLink">8)  <span class="hide">Parque de diversiones</span> <i class="fas fa-dharmachakra"></i> </a>
+									</li>
+									<li>
+										<a href="#ninth" class="menuLink">9)  <span class="hide">Meta</span> <i class="fas fa-flag-checkered"></i> </a>
+									</li>
+								</ul>
+							</div>
+							<div class="off-canvas-content" data-off-canvas-content>
+								<div class="title-bar sticky" data-sticky data-sticky-on="small" data-margin-top="0" data-off-canvas-sticky style="z-index: 13;">
+									<div class="grid-x" style="width: 100%;">
+										<div class="cell medium-3 text-center align-self-middle">
+											<button class="menu-icon show-for-small-only" type="button" data-open="offcanvasMenu"></button>
+											<span class="title-bar-title show-for-small-only" style="color: yellow;">Proyecto Final No Estacionarse</span>
+											<span class="title-bar-title hide-for-small-only" style="padding: 0.7rem 1rem; background: yellow; color: black;">Proyecto Final No Estacionarse</span>
+										</div>
+										<div class="cell align-self-middle medium-9">
+											<ul class="menu hide-for-small-only align-center" data-magellan data-offset="35">
+												<li>
+													<a href="#zero" class="menuLink"> <span class="hide">Acerca de mí</span> <i class="fas fa-user-circle"></i> </a>
+												</li>
+												<li>
+													<a href="#first" class="menuLink">1)  <span class="hide">Gasolinas</span> <i class="fas fa-gas-pump"></i> </a>
+												</li>
+												<li>
+													<a href="#second" class="menuLink">2)  <span class="hide">Restaurantes</span> <i class="fas fa-utensils"></i> </a>
+												</li>
+												<li>
+													<a href="#third" class="menuLink">3)  <span class="hide">Zona de derrumbe</span> <i class="fas fa-bomb"></i> </a>
+												</li>
+												<li>
+													<a href="#fourth" class="menuLink">4)  <span class="hide">Señales de tránsito</span> <i class="fas fa-map-signs"></i> </a>
+												</li>
+												<li>
+													<a href="#fifth" class="menuLink">5)  <span class="hide">Baches</span> <i class="fas fa-car-tilt"></i> </a>
+												</li>
+												<li>
+													<a href="#sixth" class="menuLink">6)  <span class="hide">Topes</span> <i class="fas fa-car-bump"></i> </a>
+												</li>
+												<li>
+													<a href="#seventh" class="menuLink">7)  <span class="hide">Taller mecánico</span> <i class="fas fa-tools"></i> </a>
+												</li>
+												<li>
+													<a href="#eighth" class="menuLink">8)  <span class="hide">Parque de diversiones</span> <i class="fas fa-dharmachakra"></i> </a>
+												</li>
+												<li>
+													<a href="#ninth" class="menuLink">9)  <span class="hide">Meta</span> <i class="fas fa-flag-checkered"></i> </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="sections">
+									<section id="zero" data-magellan-target="zero">
+										<h4>Acerca de mí <i class="fas fa-user-circle"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-y">
+												<div class="cell medium-3 align-self-middle">
+													<div class="orbit" role="region" aria-label="Imagenes Acerca de mi" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; bullets:false; navButtons:false;">
+														<ul id="orbit-AM" class="orbit-container rounded tam-orbit align-center">
+															<li class="is-active orbit-slide">
+																<div>
+																	<img src="img/Alexis-1.jpg">
+																</div>
+															</li>
+															<li class="orbit-slide">
+																<div>
+																	<img src="img/Alexis-2.jpg">
+																</div>
+															</li>
+															<li class="orbit-slide">
+																<div>
+																	<img src="img/Alexis-3.jpg">
+																</div>
+															</li>
+															<li class="orbit-slide">
+																<div>
+																	<img src="img/Alexis-4.jpg">
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="cell medium-offset-1 medium-8">
+													<h3>Alexis Escalona Picazo</h3>
+													<p>Pasante de la Lic. en Ing. Cibernética y Sistemas Computacionales</p>
+													<p style="font-family: 'Aleo', serif;">Características que me definen:</p>
+													<ul class="text-center fa-ul vertical medium-horizontal expanded menu no-bullet">
+														<li>
+															<p>Feliz</p>
+															<i class="far fa-laugh-beam fa-3x"></i>
+														</li>
+														<li>
+															<p>Introvertido - Extrovertido</p>
+															<i class="far fa-box fa-3x" style="padding-right: .1em; border-right: 2px solid black;"></i>
+															<i class="far fa-box-open fa-3x"></i>
+														</li>
+														<li>
+															<p>Optimista</p>
+															<i class="far fa-smile-wink fa-3x"></i>
+															<i class="far fa-thumbs-up fa-3x"></i>
+														</li>                                                             
+														<li>
+															<p>Frío - Cálido emocionalmente</p>
+															<i class="far fa-meh-blank fa-3x" style="padding-right: .1em; border-right: 2px solid black;"></i>
+															<i class="far fa-heart fa-3x"></i>
+														</li>
+														<li>
+															<p>Inteligente</p>
+															<i class="far fa-lightbulb-on fa-3x"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="first" data-magellan-target="first">
+										<h4>Gasolinas <i class="fas fa-gas-pump"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-y">
+												<div class="cell medium-6">
+													<h3 class="text-center">Familia</h3>
+													<div class="off-canvas-wrapper" style="height: 35em;">
+														<div class="off-canvas-absolute position-right red border-black" id="offcanvasFamilia" data-off-canvas>
+															<div class="grid-x grid-padding-x">
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-1.jpg"> 
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-2.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-3.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-4.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-5.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/Lady-6.jpg">
+																</div>
+															</div>
+														</div>
+														<div class="off-canvas-content" style="min-height: 300px; width:100%" data-off-canvas-content>
+															<div class="grid-x grid-padding-x">
+																<div class="cell medium-10 text-center" style="overflow-x: show">
+																	<p>Mi familia es lo más importante para mí.</p>
+																	<div class="orbit" role="region" aria-label="Imagenes Familia" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; navButtons:false;">
+																		<div class="orbit-wrapper">
+																			<ul id="orbit-F" class="orbit-container rounded tam-orbit align-center">
+																				<li class="is-active orbit-slide">
+																					<div>
+																						<img src="img/Familia-1.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Familia-2.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Familia-3.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Familia-4.jpg">
+																					</div>
+																				</li>
+																			</ul>
+																		</div>
+																		<nav class="orbit-bullets">
+																			<button class="is-active" data-slide="0"> </button>
+																			<button data-slide="1"> </button>
+																			<button data-slide="2"> </button>
+																			<button data-slide="3"> </button>
+																		</nav>
+																	</div>
+																</div>
+																<div class="cell medium-2">
+																	<button type="button" class="button secondary" data-toggle="offcanvasFamilia" style="width: 100%;">
+																		<i class="fad fa-gas-pump fa-3x fa-flip-horizontal" style="--fa-secondary-color: red;"> </i>
+																	</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="cell medium-6">
+													<h3 class="text-center">Logros y Metas</h3>
+													<div class="off-canvas-wrapper" style="height: 35em;">
+														<div class="off-canvas-absolute position-left green border-black" id="offcanvasLogros" data-off-canvas>
+															<div class="grid-x grid-padding-x">
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-1.jpg"> 
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-2.gif">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-3.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-4.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-5.jpg">
+																</div>
+																<div class="cell medium-6">
+																	<img class="img-off-canvas-25" src="img/LogrosP-6.jpg">
+																</div>
+															</div>
+														</div>
+														<div class="off-canvas-content" style="min-height: 300px; width:100%" data-off-canvas-content>
+															<div class="grid-x grid-padding-x">
+																<div class="cell medium-2">
+																	<button type="button" class="button secondary" data-toggle="offcanvasLogros" style="width: 100%;">
+																		<i class="fad fa-gas-pump fa-3x" style="--fa-secondary-color: green;"> </i>
+																	</button>
+																</div>
+																<div class="cell medium-10 text-center" style="overflow-x: show">
+																	<p>Cumplir mis objetivos a corto, mediano y largo plazo.</p>
+																	<div class="orbit" role="region" aria-label="Imagenes Familia" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; navButtons:false;">
+																		<div class="orbit-wrapper">
+																			<ul id="orbit-L" class="orbit-container rounded tam-orbit align-center">
+																				<li class="is-active orbit-slide">
+																					<div>
+																						<img src="img/Logros-1.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Logros-2.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Logros-3.jpg">
+																					</div>
+																				</li>
+																				<li class="orbit-slide">
+																					<div>
+																						<img src="img/Logros-4.jpg">
+																					</div>
+																				</li>
+																			</ul>
+																		</div>
+																		<nav class="orbit-bullets">
+																			<button class="is-active" data-slide="0"> </button>
+																			<button data-slide="1"> </button>
+																			<button data-slide="2"> </button>
+																			<button data-slide="3"> </button>
+																		</nav>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="second" data-magellan-target="second">
+										<h4>Restaurantes <i class="fas fa-utensils"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-y">
+												<div class="cell medium-12" style="border-radius: 5%; background-color: #333333; padding-bottom: 3em;">
+													<h5 class="text-center" style="color: white;">Cosas que me nutren <br> <i class="fad fa-heartbeat fa-4x" style="--fa-primary-color: white; --fa-secondary-color: lime;"></i></h5>
+													<div class="grid-container">
+														<div class="grid-x grid-padding-x">
+															<div class="cell medium-3">
+																<ul class="tabs vertical" data-active-collapse="true" data-tabs id="collapsing-tabs">
+																	<li class="tabs-title is-active" style="width: 100%;">
+																		<a href="#tabMenu1" aria-selected="true" class="text-center" style="color: black;"> <div class="thumbnail">
+																				<i class="fad fa-salad fa-2x"></i>
+																			</div> <p class="menu-titulo">Para desestresar</p> </a>
+																	</li>
+																	<li class="tabs-title" style="width: 100%;">
+																		<a href="#tabMenu2" class="text-center" style="color: black;"> <div class="thumbnail">
+																				<i class="fad fa-soup fa-2x"></i>
+																			</div> <p class="menu-titulo">Para maratonear</p> </a>
+																	</li>
+																	<li class="tabs-title" style="width: 100%;">
+																		<a href="#tabMenu3" class="text-center" style="color: black;"> <div class="thumbnail">
+																				<i class="fad fa-meat fa-2x"></i>
+																			</div> <p class="menu-titulo">Plato fuerte</p> </a>
+																	</li>
+																	<li class="tabs-title" style="width: 100%;">
+																		<a href="#tabMenu4" class="text-center" style="color: black;"> <div class="thumbnail">
+																				<i class="fad fa-ice-cream fa-2x"></i>
+																			</div> <p class="menu-titulo">Postre</p> </a>
+																	</li>
+																</ul>
+															</div>
+															<div class="cell medium-9 align-self-middle">
+																<div class="tabs-content" data-tabs-content="collapsing-tabs">
+																	<div class="tabs-panel is-active" id="tabMenu1">
+																		<div class="grid-x grid-padding-x">
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-basketball-ball fa-2x"></i> Basquetbol </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-1.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-2.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-futbol fa-2x"></i> Futbol </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-3.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-4.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-swimmer fa-2x"></i> Natación </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-5.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-6.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="tabs-panel" id="tabMenu2">
+																		<div class="grid-x grid-padding-x">
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-popcorn fa-2x"></i> Cine </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-7.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-8.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-gamepad-alt fa-2x"></i> Jugar Videojuegos </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-9.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-10.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-film fa-2x"></i> Netflix </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-11.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-12.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="tabs-panel" id="tabMenu3">
+																		<div class="grid-x grid-padding-x">
+																			<div class="cell">
+																				<p> <i class="fad fa-house fa-2x"></i> Pasar tiempo en familia </p>
+																				<div class="grid-x small-up-4"> 
+																					<div class="cell">
+																						<img src="img/Restaurantes-13.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-14.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-15.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-16.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell">
+																				<p> <i class="fad fa-users fa-2x"></i> Salir con amigos </p>
+																				<div class="grid-x small-up-4">
+																					<div class="cell">
+																						<img src="img/Restaurantes-17.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-18.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-19.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-20.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="tabs-panel" id="tabMenu4">
+																		<div class="grid-x grid-padding-x">
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-turntable fa-2x"></i> Producción Musical </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-21.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-22.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-code fa-2x"></i> Programar </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-23.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-24.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cell medium-6">
+																				<p> <i class="fad fa-guitar-electric fa-2x"></i> Tocar Guitarra </p>
+																				<div class="grid-x small-up-2">
+																					<div class="cell">
+																						<img src="img/Restaurantes-25.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																					<div class="cell">
+																						<img src="img/Restaurantes-26.jpg" class="thumbnail img-menu" alt="">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="third" data-magellan-target="third">
+										<h4>Zona de derrumbe <i class="fas fa-bomb"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-y">
+												<div class="cell text-center">
+													<p class="text-center">La enfermedad de mi papá en 3er semestre, su 2nda recaída en 5to semestre y por 3era vez en 6to semestre</p>
+													<div class="switch large">
+														<input class="switch-input" id="zonaDeDerrumbe" type="checkbox" name="zonaDeDerrumbe">
+														<label class="switch-paddle" for="zonaDeDerrumbe" style="width: 7em; color: black;">
+															<span class="switch-active" aria-hidden="true">Después</span>
+															<span class="switch-inactive" aria-hidden="true">Antes</span>
+														</label>
+													</div>
+												</div>
+												<div id="divAntes" class="cell medium-6 float-center">
+													<div class="card" style="border: 2px solid darkgray;">
+														<div class="card-section">
+															<div class="media-object">
+																<div class="media-object-section">
+																	<div class="thumbnail">
+																		<img src="img/Derrumbe-1.jpg" class="img-derrumbe">
+																	</div>
+																</div>
+																<div class="media-object-section">
+																	<h4>Antes. (Áreas de oportunidad)</h4>
+																	<ul>
+																		<li>No siempre ponía atención a cosas tan triviales</li>
+																		<li>No era tan independiente (Flojera)</li>
+																		<li>Pensar en hacer las cosas primero buscando el beneficio propio que el de los demás</li>
+																		<li>No Administraba bien mi tiempo (Principio de semestre)</li>
+																		<li>No Administraba bien el dinero que me daban (Principio de semestre)</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="divDespues" class="cell medium-6 float-center hide">
+													<div class="card" style="border: 2px solid darkgray;">
+														<div class="card-section">
+															<div class="media-object">
+																<div class="media-object-section">
+																	<div class="thumbnail">
+																		<img src="img/Derrumbe-2.jpg" class="img-derrumbe">
+																	</div>
+																</div>
+																<div class="media-object-section">
+																	<h4>Después. (Aprendizaje)</h4>
+																	<ul>
+																		<li>Valorar mas el tiempo que paso con mi familia</li>
+																		<li>Ser más independiente</li>
+																		<li>No pensar solamente en mí</li>
+																		<li>Administrar mejor mi tiempo</li>
+																		<li>Administrar mejor mi dinero</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="fourth" data-magellan-target="fourth">
+										<h4>Señales de tránsito <i class="fas fa-map-signs"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-x">
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>Prepa: Examen vocacional</p>
+														</div>
+														<img class="img-card float-center" src="img/Se%C3%B1alDeTransito-1.jpg">
+														<div class="card-section">
+															<h4>Opciones</h4>
+															<ol class="text-center">
+																<li>Ser físico-matemático
+																	<i class="far fa-square fa-2x"></i>
+																</li>
+																<li>Ser ingeniero en sistemas 
+																	<i class="far fa-check-square fa-2x"></i> 
+																</li>
+																<li>Ser músico 
+																	<i class="far fa-square fa-2x"></i>
+																</li>
+															</ol>
+															<h5>Aprendizaje</h5>
+															<p>Fue una buena decisión ya que gracias a mi carrera descubrí el mundo de la programación y amplié mi conocimiento en matemáticas. Además, el hecho de escoger esa carrera no me limitó a seguir desarrollando mi lado musical</p>
+														</div>
+													</div>
+												</div>
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>1er semestre de la carrera: Reprobar los primeros 2 parciales</p>
+														</div>
+														<img class="img-card float-center" src="img/Se%C3%B1alDeTransito-2.jpg">
+														<div class="card-section">
+															<h4>Opciones</h4>
+															<ol class="text-center">
+																<li>Cambiarme de carrera 
+																	<i class="far fa-square fa-2x"></i>
+																</li>
+																<li>Enfocarme y continuar con mi carrera 
+																	<i class="far fa-check-square fa-2x"></i>
+																</li>
+															</ol>
+															<h5>Aprendizaje</h5>
+															<p>No darse por vencido y escoger el que posiblemente era el camino más fácil, ya que para lograr muchas de nuestras metas nos vamos a encontrar con muchas piedras en el camino que hay que ir aprendiendo a esquivar </p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="fifth" data-magellan-target="fifth">
+										<h4>Baches <i class="fas fa-car-tilt"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-x">
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>1er y 2ndo semestre de la carrera: Reprobar cálculo 1 y programación estructurada</p>
+														</div>
+														<div class="card-section">
+															<img class="img-card float-center" src="img/Baches-1.jpg">
+														</div>
+													</div>
+												</div>
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>1er y 2ndo semestre de la carrera: Hacer cualquier cosa, excepto enfocarme en mi carrera</p>
+														</div>
+														<div class="card-section">
+															<img class="img-card float-center" src="img/Baches-2.jpg">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="sixth" data-magellan-target="sixth">
+										<h4>Topes <i class="fas fa-car-bump"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-x">
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>5to semestre de la carrera: Filtro de mitad de semestre</p>
+														</div>
+														<div class="card-section">
+															<img class="img-card float-center" src="img/Topes-1.jpg">
+														</div>
+													</div>
+												</div>
+												<div class="cell medium-6">
+													<div class="card">
+														<div class="card-divider">
+															<p>Final de la carrera: Créditos para hacer el servicio</p>
+														</div>
+														<div class="card-section">
+															<img class="img-card float-center" src="img/Topes-2.jpg">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="seventh" data-magellan-target="seventh">
+										<h4>Taller mecánico <i class="fas fa-tools"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-x">
+												<div class="cell">
+													<ul class="accordion" data-accordion>
+														<li class="accordion-item is-active" data-accordion-item>
+															<a href="#" class="accordion-title" style="color: black;">Abuelo Materno (Jose Reyes Picazo)</a>
+															<div class="accordion-content" data-tab-content>
+																<div class="grid-x grid-padding-x">
+																	<div class="cell medium-3">
+																		<img src="img/Taller-1.jpg" alt="" class="img-tallerP">
+																		<p class="text-center">(1944 -2004)</p>
+																	</div>
+																	<div class="cell medium-9">
+																		<h4>Aprendizaje</h4>
+																		<p>Su forma de ser y fortaleza para conllevar su enfermedad  y que a pesar de ella siempre busco la manera de pasar tiempo conmigo</p>
+																		<div class="grid-x small-up-3">
+																			<div class="cell">
+																				<img src="img/Taller-2.jpg" class="thumbnail  img-tallerH" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-3.jpg" class="thumbnail  img-tallerH" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-4.jpg" class="thumbnail  img-tallerH" alt="">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="accordion-item" data-accordion-item>
+															<a href="#" class="accordion-title" style="color: black;">Abuelo Paterno (Gustavo Escalona)</a>
+															<div class="accordion-content" data-tab-content>
+																<div class="grid-x grid-padding-x">
+																	<div class="cell medium-3">
+																		<img src="img/Taller-5.jpg" alt="" class="img-tallerP">
+																		<p class="text-center">(1940 -2013)</p>
+																	</div>
+																	<div class="cell medium-9">
+																		<h4>Aprendizaje</h4>
+																		<p>Su buen humor y positivismo hacia la vida y que a pesar de sufrir al final con su enfermedad nunca se quejó y siempre se mantuvo sonriente</p>
+																		<div class="grid-x small-up-3">
+																			<div class="cell">
+																				<img src="img/Taller-6.jpg" class="thumbnail img-tallerV" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-7.jpg" class="thumbnail img-tallerH" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-8.jpg" class="thumbnail img-tallerH" alt="">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="accordion-item" data-accordion-item>
+															<a href="#" class="accordion-title" style="color: black;">Abuela Materna (Maria Elena Larios)</a>
+															<div class="accordion-content" data-tab-content>
+																<div class="grid-x grid-padding-x">
+																	<div class="cell medium-3">
+																		<img src="img/Taller-9.jpg" alt="" class="img-tallerP">
+																		<p class="text-center">(1946 - )</p>
+																	</div>
+																	<div class="cell medium-9">
+																		<h4>Aprendizaje</h4>
+																		<p>Su independencia y fortaleza para salir siempre adelante a pesar de las adversidades que le haya puesto la vida</p>
+																		<div class="grid-x small-up-3">
+																			<div class="cell">
+																				<img src="img/Taller-10.jpg" class="thumbnail img-tallerV" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-11.jpg" class="thumbnail img-tallerV" alt="">
+																			</div>
+																			<div class="cell">
+																				<img src="img/Taller-12.jpg" class="thumbnail img-tallerV" alt="">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="eighth" data-magellan-target="eighth">
+										<h4>Parque de diversiones <i class="fas fa-dharmachakra"></i></h4>
+										<p>Salir de vacaciones con mi familia y estar con mis amigos son la mejores atracciones de mi parque de diversiones</p>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-x grid-margin-y">
+												<div class="medium-4 cell">
+													<img src="img/Parque-1.jpg" class="img-parque"/>
+												</div>
+												<div class="medium-4 cell">
+													<div class="grid-x small-up-2 grid-padding-x">
+														<div class="cell">
+															<img src="img/Parque-2.jpg" class="img-parque"/>
+														</div>
+														<div class="cell">
+															<img src="img/Parque-3.jpg" class="img-parque"/>
+														</div>
+													</div>
+												</div>
+												<div class="medium-4 cell">
+													<img src="img/Parque-4.jpg" class="img-parque"/>
+												</div>
+											</div>
+											<div class="grid-x grid-padding-x grid-margin-y">
+												<div class="cell medium-2">
+													<img src="img/Parque-5.jpg" class="img-parque"/>
+												</div>
+												<div class="cell medium-8">
+													<div class="grid-x small-up-2 grid-padding-x">
+														<div class="cell">
+															<img src="img/Parque-6.jpg" class="img-parque"/>
+														</div>
+														<div class="cell">
+															<img src="img/Parque-7.jpg" class="img-parque"/>
+														</div>
+													</div>
+												</div>
+												<div class="cell medium-2">
+													<img src="img/Parque-8.jpg" class="img-parque"/>
+												</div>
+											</div>
+											<div class="grid-x grid-padding-x grid-margin-y">
+												<div class="medium-4 cell">
+													<img src="img/Parque-9.jpg" class="img-parque"/>
+												</div>
+												<div class="medium-4 cell">
+													<div class="grid-x small-up-2 grid-padding-x">
+														<div class="cell">
+															<img src="img/Parque-10.jpg" class="img-parque"/>
+														</div>
+														<div class="cell">
+															<img src="img/Parque-11.jpg" class="img-parque"/>
+														</div>
+													</div>
+												</div>
+												<div class="medium-4 cell">
+													<img src="img/Parque-12.jpg" class="img-parque"/>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="ninth" data-magellan-target="ninth">
+										<h4>Meta <i class="fas fa-flag-checkered"></i></h4>
+										<div class="grid-container">
+											<div class="grid-x grid-padding-y">
+												<div class="cell align-self-middle">
+													<div class="table-scroll">
+														<table class="hover">
+															<thead>
+																<tr>
+																	<th></th>
+																	<th>Personal</th>
+																	<th>Salud</th>
+																	<th>Profesional</th>
+																	<th>Espiritual</th>
+																	<th>Material</th>
+																</tr>
+																<tbody>
+																	<tr>
+																		<td>20's</td>
+																		<td>Me siento bien con quien soy</td>
+																		<td>Excelente</td>
+																		<td>
+																			<ul>
+																				<li>Terminando la carrera (Titulado)</li>
+																				<li>Trabajando</li>
+																				<li>Haciendo un maestría</li>
+																			</ul>
+																		</td>
+																		<td>Aprendiendo de las derrotas disfrutando de las victorias</td>
+																		<td>Solicitando un préstamo para comprar una casa</td>
+																	</tr>
+																	<tr>
+																		<td>30's</td>
+																		<td>Teniendo una familia</td>
+																		<td>
+																			<ul>
+																				<li>Normal</li>
+																				<li>Debo cuidarme para evitar enfermedades actuales como el estrés</li>
+																			</ul>
+																		</td>
+																		<td>
+																			<ul>
+																				<li>Seguir trabajando en alguna empresa relacionada con mi carrera</li>
+																				<li>Actualizándome, tomando diversos cursos y certificaciones</li>
+																			</ul>
+																		</td>
+																		<td>Guiarme siempre por principios y valores</td>
+																		<td>
+																			<ul>
+																				<li>Terminando de pagar la casa</li>
+																				<li>Con lo suficiente para tener una buena vida en companía de mi familia</li>
+																			</ul>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>40's</td>
+																		<td>Disfrutando de mi familia: esposa e hijos</td>
+																		<td>
+																			<ul>
+																				<li>Normal</li>
+																				<li>Debo cuidarme para evitar enfermedades comunes</li>
+																			</ul>
+																		</td>
+																		<td>Fundando mi empresa desarrolladora de videojuegos</td>
+																		<td>Guiarme siempre por principios y valores</td>
+																		<td>Con lo suficiente para tener una buena vida en companía de mi familia</td>
+																	</tr>
+																	<tr>
+																		<td>50's</td>
+																		<td>Disfrutando de mi familia: esposa e hijos</td>
+																		<td>
+																			<ul>
+																				<li>Normal</li>
+																				<li>Seguir cuidandome para evitar enfermedades que se puedan presentar</li>
+																			</ul>
+																		</td>
+																		<td>
+																			<ul>
+																				<li>Haciendo contratos con otras empresas desarrolladoras de videojuegos</li>
+																				<li>Posicionando mejor a la empresa</li>
+																			</ul>
+																		</td>
+																		<td>Guiarme siempre por principios y valores</td>
+																		<td>Con lo suficiente para tener una buena vida en companía de mi familia</td>
+																	</tr>
+																	<tr>
+																		<td>60's</td>
+																		<td>Disfrutando de mi familia: esposa, hijos y nietos</td>
+																		<td>
+																			<ul>
+																				<li>Normal a poca</li>
+																				<li>Debo seguir las indicaciones de los doctores</li>
+																			</ul>
+																		</td>
+																		<td>
+																			<ul>
+																				<li>Continuar al mando de la empresa</li>
+																				<li>Enseñando a mis hijos como funciona la empresa en caso de que quisieran seguir el negocio</li>
+																			</ul>
+																		</td>
+																		<td>Tranquilo al saber que siempre fuí una persona motivada que siguió sus metas hasta alcanzarlas</td>
+																		<td>Con lo suficiente para tener una buena vida en companía de mi familia</td>
+																	</tr>
+																</tbody>
+															</thead>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/foundation.min.js"></script>
 	<script type="text/javascript" src="lib/site.js"></script>
